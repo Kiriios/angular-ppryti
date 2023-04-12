@@ -1,5 +1,6 @@
 <p>Votre panier :</p>
 
+<p><a routerLink="/shipping"> Frais de livraisons </a></p>
 <div class="cart-item" *ngFor="let item of items">
   <span> {{ item.name }} </span>
   <span> {{ item.price | currency }}</span>
